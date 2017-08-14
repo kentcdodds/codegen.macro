@@ -1,0 +1,14 @@
+{
+  "name": "codegen.macro",
+  "version": "1.0.0",
+  "description": "Generate code at build-time with babel-macros",
+  "main": "index.js",
+  "keywords": [
+    "babel-macros"
+  ],
+  "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "babel-plugin-codegen": "^1.0.0"
+  }
+}
