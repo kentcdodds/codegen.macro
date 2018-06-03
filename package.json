@@ -9,6 +9,6 @@
   "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
   "license": "MIT",
   "dependencies": {
-    "babel-plugin-codegen": "^1.0.0"
+    "babel-plugin-codegen": "^2.0.0"
   }
 }
