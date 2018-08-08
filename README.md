@@ -25,7 +25,7 @@ Once you've [configured `babel-macros`](https://github.com/kentcdodds/babel-macr
 you can import/require `codegen.macro`. For example:
 
 ```js
-import codegen from 'babel-plugin-codegen/macro'
+import codegen from 'codegen.macro'
 
 codegen`module.exports = ['a', 'b', 'c'].map(l => 'export const ' + l + ' = ' + JSON.stringify(l)).join(';')`
 
