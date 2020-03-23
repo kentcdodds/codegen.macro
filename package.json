@@ -1,6 +1,6 @@
 {
   "name": "codegen.macro",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Generate code at build-time with babel-macros",
   "main": "index.js",
   "keywords": [
