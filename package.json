@@ -7,9 +7,13 @@
     "babel-plugin-macros",
     "babel-macros"
   ],
-  "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
+  "author": "Kent C. Dodds <me@kentcdodds.com> (https://kentcdodds.com)",
   "license": "MIT",
   "dependencies": {
-    "babel-plugin-codegen": "^3.0.0"
+    "babel-plugin-codegen": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=10",
+    "npm": ">=6"
   }
 }

@@ -16,12 +16,13 @@ should be installed as one of your project's `devDependencies`:
 npm install --save-dev codegen.macro
 ```
 
-You'll also need to install and configure [`babel-plugin-macros`][babel-plugin-macros] if you
-haven't already.
+You'll also need to install and configure
+[`babel-plugin-macros`][babel-plugin-macros] if you haven't already.
 
 ## Usage
 
-Once you've [configured `babel-plugin-macros`](https://github.com/kentcdodds/babel-plugin-macros/blob/master/other/docs/user.md)
+Once you've
+[configured `babel-plugin-macros`](https://github.com/kentcdodds/babel-plugin-macros/blob/master/other/docs/user.md)
 you can import/require `codegen.macro`. For example:
 
 ```js
@@ -36,18 +37,21 @@ export const b = "b";
 export const c = "c";
 ```
 
-You'll find more usage capabilities in the
-[`babel-plugin-codegen` test snapshots][snapshots].
+You'll find more usage capabilities in the [`babel-plugin-codegen` test
+snapshots][snapshots].
 
 **Note**:
 
-[`babel-plugin-codegen`][babel-plugin-codegen] allows you to have a few more APIs
-than you have with this macro, but this macro comes with all the benefits of using
-[`babel-plugin-macros`][babel-plugin-macros] (which you can read about in the `babel-plugin-macros` docs).
+[`babel-plugin-codegen`][babel-plugin-codegen] allows you to have a few more
+APIs than you have with this macro, but this macro comes with all the benefits
+of using [`babel-plugin-macros`][babel-plugin-macros] (which you can read about
+in the `babel-plugin-macros` docs).
 
-[npm]: https://www.npmjs.com/
+<!-- prettier-ignore-start -->
+[npm]: https://www.npmjs.com
 [node]: https://nodejs.org
+
 [babel-plugin-macros]: https://github.com/kentcdodds/babel-plugin-macros
 [babel-plugin-codegen]: https://github.com/kentcdodds/babel-plugin-codegen
 [snapshots]: https://github.com/kentcdodds/babel-plugin-codegen/blob/master/src/__tests__/__snapshots__/macro.js.snap
-
+<!-- prettier-ignore-end -->
